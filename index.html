@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/a0b29c1545.js" crossorigin="anonymous"></script>"
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Certifications">Certifications</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hi, I'm <span>Kalpana Shree</span><br>from Chennai</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="About-col-1">
+          <img src="my.jpg" alt="About me image">
+        </div>
+        <div class="About-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I'm a passionate Frontend Developer with a keen eye for design and a love for creating beautiful, responsive, and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life on the web. I thrive in collaborative environments, working closely with designers, backend developers, and product teams to ensure seamless functionality and a polished user experience. Whether I'm crafting sleek interfaces or optimizing performance, I'm always focused on delivering the best possible digital solutions. Let's build something amazing together!</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>HTML</span></li>
+              <li><span>CSS</span></li>
+              <li><span>JavaScript</span></li>
+              <li><span>Java</span></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>SSLC</span><br>2019-2020<br>M.CT.M School</li>
+              <li><span>HSLC</span><br>2021-2022<br>M.CT.M School</li>
+              <li><span>BE-CSE</span><br>2022-2026<br>At Sathyabama University<br>Currently pursuing 3rd year</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div id="Certifications">
+    <div class="container">
+      <h1 class="sub-title">My Certifications</h1>
+      <div class="Certifications-list">
+        <div>
+          <h2>MATLAB Programming Techniques</h2>
+          <p>Participants learn how to write clean, modular, and scalable code using advanced MATLAB functions and toolboxes. Earning this certificate demonstrates proficiency in MATLAB programming, making it valuable for professionals in engineering, research, and data science.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Nascom Digital 101</h2>
+          <p>The NASCOM Digital 101 certificate is a foundational program aimed at introducing learners to essential digital skills and concepts. This certificate course typically covers topics such as basic computer operations, internet usage, digital communication tools, and an introduction to productivity software like word processors and spreadsheets. The course is designed for beginners, equipping them with practical skills to navigate the digital world confidently.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>MATLAB Onramp</h2>
+          <p>The MATLAB Onramp certificate is an entry-level certification designed for beginners to learn the fundamentals of MATLAB. This free, self-paced course introduces essential skills like working with variables, performing calculations, and creating basic scripts. It provides hands-on experience with interactive exercises, helping learners understand MATLAB’s environment and basic programming techniques.</p>
+          <a href="#">Learn more</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="Projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="Projects-list">
+        
+        <div class="Projects">
+          <img src="work-1.png">
+          <div class="layer">
+            <h3>Portfolio Website</h3>
+            <p>A portfolio website is a personalized platform for showcasing your work, skills, and accomplishments to potential clients, employers, or collaborators.</p>
+          </div>
+        </div>
+        
+        <div class="Projects">
+          <img src="work-2.png">
+          <div class="layer">
+            <h3>Simple Calculator</h3>
+            <p>A simple calculator project in Java is a beginner-friendly application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+          </div>
+        </div>
+        
+        <div class="Projects">
+          <img src="work-3.png">
+          <div class="layer">
+            <h3>Face Recognition and Attendance Management System</h3>
+            <p>A Face Recognition and Attendance Management System uses facial recognition technology to automatically record attendance by identifying and verifying individuals' faces.</p>
+          </div>
+        </div>
+        
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+<div id="Contact">
+  <div class="container">
+    <div class="row">
+      <div class="Contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i> kalpanashree16@gmail.com</p>
+        <p> <i class="fa-solid fa-square-phone"></i> 8248305046</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          
+        </div>
+        <a href="Resume (2).pdf"  download class="btn btn2">Download CV</a>
+      </div>
+      <div class="Contact-right">
+      <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+
+</div>
+    </div>
+  </div>
+  
+</div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwCR15nKY1ZEmWgLTqW0QPoPGNRGKhFDaaFeo6_982-kdEmXPNJAb_ld-EtQehmQaXE/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+             msg.innerHTML = ""
+
+          },5000)
+          form.reset()
+        })
+
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
